@@ -19,7 +19,7 @@ POST /api/poa/upload
   - ORIGINAL_DOCUMENT
   - CERTIFIED_NOTARIZED
   - PHOTO_COPY
-- grantor：grantor，对象，字段如下：
+- grantorInfo：grantor，对象，字段如下：
   - lastName
   - firstName
   - sex
@@ -30,7 +30,7 @@ POST /api/poa/upload
   - address2
   - city
   - postalCode
-- prepared：上传人，为对象
+- preparedInfo：上传人，为对象
   - lastName
   - firstName
   - sex
