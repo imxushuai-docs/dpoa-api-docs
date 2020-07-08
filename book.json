@@ -1,0 +1,46 @@
+{
+    "plugins": [
+        "copy-code-button",
+        "splitter",
+        "-lunr",
+        "-search", 
+        "search-plus",
+        "prism",
+        "prism-themes",
+        "-highlight",
+        "anchors",
+        "anchor-navigation-ex",
+        "alerts"
+    ],
+    "pluginsConfig": {
+    	"prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "anchor-navigation-ex": {
+		    "showLevel": true,
+		    "associatedWithSummary": true,
+		    "printLog": false,
+		    "multipleH1": true,
+		    "mode": "float",
+		    "showGoTop":true,
+		    "float": {
+		        "floatIcon": "fa fa-navicon",
+		        "showLevelIcon": false,
+		        "level1Icon": "fa fa-hand-o-right",
+		        "level2Icon": "fa fa-hand-o-right",
+		        "level3Icon": "fa fa-hand-o-right"
+		    },
+		    "pageTop": {
+		        "showLevelIcon": false,
+		        "level1Icon": "fa fa-hand-o-right",
+		        "level2Icon": "fa fa-hand-o-right",
+		        "level3Icon": "fa fa-hand-o-right"
+		    }
+		}
+    },
+    "styles": {
+        "website": "styles/website.css"
+    }
+}

@@ -1,0 +1,36 @@
+language: node_js
+node_js: 
+  - 12.16.3
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+before_script:
+# - npm install -g gulp
+#  - npm install -g hexo-cli
+  - npm install -g gitbook-cli
+
+script:
+  - gitbook install
+  - gitbook build
+  - cd ./_book
+  - git init
+  - git config user.name "imxushuai"
+  - git config user.email "imxushuai@gmail.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+
+branches:
+  only:
+    - cicd
+env:
+  global:
+    - GH_REF: github.com/imxushuai-docs/dpoa-api-docs.git
