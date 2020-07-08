@@ -17,8 +17,30 @@ POST /api/notary/upload
   - ORIGINAL_DOCUMENT
   - CERTIFIED_NOTARIZED
   - PHOTO_COPY
-- uploaderInfo：待确定具体内容
-- witnessList：witness列表，为数组，数组元素格式待确定
+- uploaderInfo：对象
+  - lastName
+  - firstName
+  - sex
+  - dateOfBirth
+  - email
+  - phoneNumber
+  - address1
+  - address2
+  - provinceOrTerritory
+  - city
+  - postalCode
+- witnessList：数组，数组字段如下
+  - lastName
+  - firstName
+  - sex
+  - dateOfBirth
+  - email
+  - phoneNumber
+  - address1
+  - address2
+  - provinceOrTerritory
+  - city
+  - postalCode
 - createdIn：创建于什么地方
 - NotarizedIn：在什么地方公证
 

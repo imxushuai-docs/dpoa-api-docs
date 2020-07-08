@@ -28,6 +28,7 @@ POST /api/poa/upload
   - phoneNumber
   - address1
   - address2
+  - provinceOrTerritory
   - city
   - postalCode
 - preparedInfo：上传人，为对象
@@ -39,6 +40,7 @@ POST /api/poa/upload
   - phoneNumber
   - address1
   - address2
+  - provinceOrTerritory
   - city
   - postalCode
 - poaType：poa类型，有以下值：
@@ -58,6 +60,7 @@ POST /api/poa/upload
   - phoneNumber
   - address1
   - address2
+  - provinceOrTerritory
   - city
   - postalCode
 - witnessList：数组，数组元素格式如下：
@@ -69,6 +72,7 @@ POST /api/poa/upload
   - phoneNumber
   - address1
   - address2
+  - provinceOrTerritory
   - city
   - postalCode
 - affidavitForActivation：这也是文件，调用文件上传需要使用单独定义的`containerName`进行文件上传

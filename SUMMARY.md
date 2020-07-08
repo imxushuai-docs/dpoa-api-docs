@@ -11,3 +11,7 @@
   - [4.1 PoA API](poa/poaController.md)
 * [5. Requests相关API](requests/requestsController.md)
   - [5.1 Requests相关API](requests/requestsController.md)
+* [6. Share相关API]()
+  - [6.1 Share相关API](share/shareController.md)
+* [7. 用户信息相关API]()
+  - [7.1 用户信息相关API](user/userController.md)
