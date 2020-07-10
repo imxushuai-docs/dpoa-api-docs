@@ -67,13 +67,18 @@ GET /api/notary/query
 - fileId
 - timeOfNotarization
 - notaryPublic
+- page
+- size
 
 ## 返回值
 
 ```json
-[{
-    notaryInfo...
-}]
+{
+    "total":10,
+    "content":[{
+        notaryInfo...
+    }]
+}
 ```
 
 
