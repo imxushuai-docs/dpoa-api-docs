@@ -76,8 +76,7 @@ POST /api/poa/upload
   - city
   - postalCode
 - affidavitForActivation：这也是文件，调用文件上传需要使用单独定义的`containerName`进行文件上传
-- capacityAssessmentEmail：公证人邮箱
-- capacityAssessmentOtherInformation：公证人其他联系方式
+- capacityAssessment：assessor id
 - consentAndDirection：授权信息，可能为ID或json，待确定
 - fileId：上传的文件ID
 
