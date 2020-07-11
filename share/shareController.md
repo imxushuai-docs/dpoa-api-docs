@@ -21,7 +21,7 @@ POST /api/share/send/verifycode
 }
 ```
 
-# 分享文件email
+# 分享文件到email
 
 分享poa或notary文件到指定邮箱 ，校验验证码正确才会发送
 
@@ -36,6 +36,26 @@ GET /api/share/send2email/{verifyCode}
 以下参数在请求路径上提交：
 
 - verifyCode：验证码
+
+以下参数在`request body`中
+
+- entityType：分享的文件类型
+  - PoA
+  - Notary
+- entityId：poa id 或者 notary id
+- recipientType：接收人类型
+  - SDM
+  - Lawyer
+  - Doctor
+  - Bank
+  - Third_Party
+- lastName
+- firstName
+- email
+- phoneNumber
+- faxNumber
+- organization
+- shareType：分享方式，fax或者email
 
 ## 返回值
 
