@@ -12,38 +12,38 @@ POST /api/poa/upload
 
 下列参数以`json`格式在`request body`提交：
 
-- type：POA的上传方式，有以下两种值
+- **type**：POA的上传方式，有以下两种值
   - upload
   - compose
-- uploadPoaFileType：上传的POA文件类型，有以下值：
+- **uploadPoaFileType**：上传的POA文件类型，有以下值：
   - ORIGINAL_DOCUMENT
   - CERTIFIED_NOTARIZED
   - PHOTO_COPY
-- grantorInfo：grantor，对象，字段如下：
+- **grantorInfo**：grantor，对象，字段如下：
   - lastName
   - firstName
   - sex
   - dateOfBirth
-  - email
+  - **email**
   - phoneNumber
   - address1
   - address2
   - provinceOrTerritory
   - city
   - postalCode
-- preparedInfo：上传人，为对象
+- **preparedInfo**：上传人，为对象
   - lastName
   - firstName
   - sex
   - dateOfBirth
-  - email
+  - **email**
   - phoneNumber
   - address1
   - address2
   - provinceOrTerritory
   - city
   - postalCode
-- poaType：poa类型，有以下值：
+- **poaType**：poa类型，有以下值：
   - PERSONAL_HEALTH
   - FINANCE_PROPERTY
 - poaParam：当`poaType = FINANCE_PROPERTY`时，有特殊的内容需要保存，该字段为对象类型
@@ -78,7 +78,7 @@ POST /api/poa/upload
 - affidavitForActivation：这也是文件，调用文件上传需要使用单独定义的`containerName`进行文件上传
 - capacityAssessment：assessor id
 - consentAndDirection：授权信息，可能为ID或json，待确定
-- fileId：上传的文件ID
+- **fileId**：上传的文件ID
 
 ## 返回值
 
