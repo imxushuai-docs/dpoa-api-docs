@@ -87,3 +87,9 @@ DPOA API 文档说明
 - [【查看详情】](poa/poaController.md#参数)POA上传参数更新，`assossor`现在为直接选择，只需要上传`assossor id`
 - [【查看详情】](auditlog/auditLogController.md)新增audit log api文档
 
+## 2020-07-12
+
+- [【查看详情】](poa/poaController.md#获取指定POA的consent)新增POA Consent相关API
+
+
+

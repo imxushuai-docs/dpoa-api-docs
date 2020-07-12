@@ -28,18 +28,18 @@ POST /api/share/send/verifycode
 ## URL
 
 ```http
-GET /api/share/send2user/{verifyCode}
+POST /api/share/send2user/{verifyCode}
 ```
 
 ## 参数
 
 以下参数在请求路径上提交：
 
-- verifyCode：验证码
+- **verifyCode**：验证码
 
 以下参数在`request body`中
 
-- entityType：分享的文件类型
+- **entityType**：分享的文件类型
   - PoA
   - Notary
 - entityId：poa id 或者 notary id
