@@ -10,17 +10,14 @@ GET /api/auditlog/query/{entityId}/{type}
 
 ## 参数
 
-以下参数在路径上提交
-
-- entityId：poa id或notary id
-- type：查询的文档类型
-  - Notary
-  - PoA
-
 以下参数以表单提交
 
 - page
 - size
+- entityId：poa id或notary id
+- type：查询的文档类型
+  - Notary
+  - PoA
 
 ## 返回值
 

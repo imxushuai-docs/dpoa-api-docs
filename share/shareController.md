@@ -28,7 +28,7 @@ POST /api/share/send/verifycode
 ## URL
 
 ```http
-GET /api/share/send2email/{verifyCode}
+GET /api/share/send2user/{verifyCode}
 ```
 
 ## 参数
