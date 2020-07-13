@@ -91,5 +91,7 @@ DPOA API 文档说明
 
 - [【查看详情】](poa/poaController.md#获取指定POA的consent)新增POA Consent相关API
 
+## 2020-07-13
 
+- [【查看详情】](requests/sendRequestController.md)新增发送请求API文档
 
