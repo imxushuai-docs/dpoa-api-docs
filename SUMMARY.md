@@ -18,3 +18,5 @@
   - [7.1 用户信息相关API](user/userController.md)
 * [8. Audit Log API]()
   - [8.1 Audit Log API](auditlog/auditLogController.md)
+* [9. 数据字典API]()
+  - [9.1 数据字典API](dict/dictCsontroller.md)

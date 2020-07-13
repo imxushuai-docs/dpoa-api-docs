@@ -94,4 +94,7 @@ DPOA API 文档说明
 ## 2020-07-13
 
 - [【查看详情】](requests/sendRequestController.md)新增发送请求API文档
+- [【查看详情】](dict/dictController.md)新增数据字典API文档
+
+
 

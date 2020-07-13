@@ -147,12 +147,12 @@ GET /api/poa/query
 ## URL
 
 ```http
-POST /api/poa/status/{poaId}/{status}
+POST /api/poa/status
 ```
 
 ## 参数
 
-以下参数在请求路径中提交：
+以下参数在`request body`提交：
 
 - poaId：需要更新状态的POA ID
 - status：更新为什么状态，有效的状态值如下
@@ -161,7 +161,14 @@ POST /api/poa/status/{poaId}/{status}
 
 ## 返回值
 
-无
+```json
+{
+    "data":null,
+    "message":""
+}
+```
+
+
 
 # 获取指定POA的consent
 
