@@ -95,6 +95,7 @@ DPOA API 文档说明
 
 - [【查看详情】](requests/sendRequestController.md)新增发送请求API文档
 - [【查看详情】](dict/dictController.md)新增数据字典API文档
+- [【查看详情】](requests/requestsController.md#按类别查询request列表)Request按类别查询Request列表
 
 
 

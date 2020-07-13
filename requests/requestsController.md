@@ -25,6 +25,33 @@ GET /api/requests/list
 }
 ```
 
+# 按类别查询request列表
+
+按类别查询当前登录用户的request列表
+
+## URL
+
+```http
+GET /api/request/list/{type}
+```
+
+## 参数
+
+以下参数在请求路径上提交
+
+- type
+  - incoming
+  - sendOut
+
+## 返回值
+
+```json
+{
+    "content":[],
+    "total":0
+}
+```
+
 
 
 # 查看请求详情
