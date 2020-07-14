@@ -101,3 +101,6 @@ DPOA API 文档说明
 
 - [【查看详情】](notary/notaryController.md#更新notary的状态)新增更新Notary状态的API
 - [【查看详情】](requests/requestsController.md#接受或拒绝请求)新增接受或拒绝某个文档的访问权限的请求
+- [【查看详情】](compose/templateController.md)新增compose的template列表查询API
+- [【查看详情】](compose/categoryController.md)新增compose的category API
+- [【查看详情】](compose/preMeetingController.md)新增compose的premeeting API
