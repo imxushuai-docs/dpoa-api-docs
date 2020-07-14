@@ -97,5 +97,7 @@ DPOA API 文档说明
 - [【查看详情】](dict/dictController.md)新增数据字典API文档
 - [【查看详情】](requests/requestsController.md#按类别查询request列表)Request按类别查询Request列表
 
+## 2020-07-14
 
-
+- [【查看详情】](notary/notaryController.md#更新notary的状态)新增更新Notary状态的API
+- [【查看详情】](requests/requestsController.md#接受或拒绝请求)新增接受或拒绝某个文档的访问权限的请求

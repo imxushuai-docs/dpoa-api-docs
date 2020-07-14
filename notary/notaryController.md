@@ -81,5 +81,31 @@ GET /api/notary/query
 }
 ```
 
+# 更新notary的状态
+
+更新指定notary的状态值
+
+## URL
+
+```http
+POST /api/notary/status
+```
+
+## 参数
+
+以下参数在`request body`提交
+
+- notaryId：notary id
+- status：变更后的status值
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
 
 

@@ -87,3 +87,31 @@ GET /api/requests/view/{requestId}
 }
 ```
 
+# 接受或拒绝请求
+
+接受或拒绝某个文档的访问权限请求
+
+## URL
+
+```http
+GET /api/requests/process/{requestsId}/{result}
+```
+
+## 参数
+
+以下参数在路径上提交
+
+- requestsId：请求ID
+- result：接受或拒绝
+  - Accepted：接受
+  - Declined：拒绝
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
