@@ -16,6 +16,7 @@ POST /api/poadraft/draft
 - templateId
 - categories
 - assessor
+- flag：固定值`draft`
 
 ## 返回值
 
@@ -68,6 +69,7 @@ POST /api/poadraft/finalize
 - templateId
 - categories
 - assessor
+- flag：固定值`finalize`
 
 ## 返回值
 
