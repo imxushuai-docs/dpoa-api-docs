@@ -104,3 +104,8 @@ DPOA API 文档说明
 - [【查看详情】](compose/templateController.md)新增compose的template列表查询API
 - [【查看详情】](compose/categoryController.md)新增compose的category API
 - [【查看详情】](compose/preMeetingController.md)新增compose的premeeting API
+
+## 2020-07-15
+
+- [【查看详情】](poa/poaController.md#ready状态的POA变更为activated)新增将compose提交的poa激活
+- [【查看详情】](compose/poaComposeDraft.md)新增compose保存poa数据API

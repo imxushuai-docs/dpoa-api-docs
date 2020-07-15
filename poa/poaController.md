@@ -239,3 +239,29 @@ POST /api/poa/consent/change/status
 }
 ```
 
+# ready状态的POA变更为activated
+
+将compose方式提交的POA激活
+
+## URL
+
+```http
+POST /api/poa/ready2activated
+```
+
+## 参数
+
+以下参数在`request body`提交
+
+- poaId：poa id
+- fileId：file id
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
