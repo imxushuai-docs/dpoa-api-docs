@@ -265,3 +265,26 @@ POST /api/poa/ready2activated
 }
 ```
 
+# 按ID查询POA信息
+
+按ID查询POA信息
+
+## URL
+
+```http
+GET /api/poa/query/{poaId}
+```
+
+## 参数
+
+- poaId
+
+## 返回值
+
+```json
+{
+    "data":{},
+    "message":"success"
+}
+```
+

@@ -87,3 +87,40 @@ POST /api/auth/register
 }
 ```
 
+# refresh token
+
+refresh token
+
+## URL
+
+```http
+POST /api/auth/refreshToken
+```
+
+## 参数
+
+以下参数在`request body`提交
+
+- refreshToken
+
+## 返回值
+
+```json
+{
+    "id": "402880e57323449c0173234b4deb0100",
+    "username": "test@test.com",
+    "email": "test@test.com",
+    "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1OTQ4ODc2NzEsImV4cCI6MTU5NDg4OTQ4MX0.d71nuIgSe9BiXiw0IQFvba9_abnxHpZlHTeHUewStM8cLtM-Qt7ySFTPVdEHx6kD2sGexUJm2UrngmumdpqqEA",
+    "roles": [
+        "ROLE_LAWYER",
+        "ROLE_GRANTOR",
+        "ROLE_SDM",
+        "ROLE_ASSESSOR",
+        "ROLE_THIRD_PARTY",
+        "ROLE_NOTARY"
+    ],
+    "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI0MDI4ODBlNTczMjM0NDljMDE3MzIzNGI0ZGViMDEwMCIsImlhdCI6MTU5NDg4ODE0NiwiZXhwIjoxNTk0ODg4MTc2fQ.ssiI_JWdinrFwP4WPGw8lcKY6ZjlUE-4gZY9dkvqv-U3LE8N6OqjV2L-o4Nl0JIMmX6vVDz0o4IaQvAtgbGBLw",
+    "tokenType": "Bearer"
+}
+```
+

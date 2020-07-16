@@ -110,3 +110,7 @@ DPOA API 文档说明
 - [【查看详情】](poa/poaController.md#ready状态的POA变更为activated)新增将compose提交的poa激活
 - [【查看详情】](compose/poaComposeDraft.md)新增compose保存poa数据API
 
+## 2020-07-16
+
+- [【查看详情】](auth/authController.md#refresh token)新增refresh token API
+- [【查看详情】](poa/poaController.md#按ID查询POA信息)新增按POA ID查询POA
