@@ -114,3 +114,8 @@ DPOA API 文档说明
 
 - [【查看详情】](auth/authController.md#refresh token)新增refresh token API
 - [【查看详情】](poa/poaController.md#按ID查询POA信息)新增按POA ID查询POA
+
+## 2020-07-18
+
+- [【查看详情】](notice/noticeController.md)新增通知相关API
+

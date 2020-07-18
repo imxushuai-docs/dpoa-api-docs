@@ -25,3 +25,5 @@
   - [10.2 template api](compose/templateController.md)
   - [10.3 category api](compose/categoryController.md)
   - [10.4 poa compose draft](compose/poaComposeDraft.md)
+* [11. Notice通知API]()
+  - [11.1 Notice通知相关API](notice/noticeController.md)

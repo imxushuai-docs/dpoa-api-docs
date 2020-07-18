@@ -31,3 +31,22 @@ POST /api/file/upload/{containerName}
 }
 ```
 
+# 下载文件
+
+按文件id下载文件
+
+## URL
+
+```http
+GET /api/file/download/{fileId}
+```
+
+## 参数
+
+以下参数在路径上提交
+
+- fileId：文件id
+
+## 返回值
+
+文件流
