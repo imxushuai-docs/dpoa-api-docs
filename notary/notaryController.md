@@ -43,6 +43,7 @@ POST /api/notary/upload
   - postalCode
 - createdIn：创建于什么地方
 - NotarizedIn：在什么地方公证
+- fileId：文件id
 
 ## 返回值
 
