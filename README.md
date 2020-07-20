@@ -119,3 +119,6 @@ DPOA API 文档说明
 
 - [【查看详情】](notice/noticeController.md)新增通知相关API
 
+## 2020-07-20
+
+-  [【查看详情】](notary/notaryController.md#按ID查询Notary)新增按id查询notary信息API

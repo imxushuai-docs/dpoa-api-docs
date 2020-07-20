@@ -110,3 +110,28 @@ POST /api/notary/status
 
 
 
+# 按ID查询Notary
+
+按ID查询Notary
+
+## URL
+
+```http
+GET /api/notary/query/{notaryId}
+```
+
+## 参数
+
+- notaryId
+
+## 返回值
+
+```json
+{
+    "data":{
+        notaryInfo
+    },
+    "message":"success"
+}
+```
+
