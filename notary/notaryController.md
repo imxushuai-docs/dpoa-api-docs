@@ -135,3 +135,31 @@ GET /api/notary/query/{notaryId}
 }
 ```
 
+# notarize
+
+公证未被公证的公证文件
+
+## URL
+
+```
+POST /api/notary/notarize
+```
+
+## 参数
+
+以下参数在`request body`中提交
+
+- notaryId
+- status：固定传 `Verified`
+- notaryPublic
+- notarizeProvince
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+

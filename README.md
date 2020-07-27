@@ -122,3 +122,8 @@ DPOA API 文档说明
 ## 2020-07-20
 
 -  [【查看详情】](notary/notaryController.md#按ID查询Notary)新增按id查询notary信息API
+
+## 2020-07-27
+
+- [【查看详情】](notary/notaryController.md)新增notarize文件
+
