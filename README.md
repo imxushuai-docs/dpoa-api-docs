@@ -127,3 +127,6 @@ DPOA API 文档说明
 
 - [【查看详情】](notary/notaryController.md)新增notarize文件
 
+## 2020-07-28
+
+- [【查询详情】](poa/remark.md)POA操作权限说明

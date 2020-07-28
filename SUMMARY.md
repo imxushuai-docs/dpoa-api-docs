@@ -9,6 +9,7 @@
   - [3.1 Notary API](notary/notaryController.md)
 * [4. PoA API]()
   - [4.1 PoA API](poa/poaController.md)
+  - [4.2 POA操作权限](poa/remark.md)
 * [5. Requests相关API](requests/requestsController.md)
   - [5.1 Requests相关API](requests/requestsController.md)
   - [5.2 发送请求相关API](requests/sendRequestController.md)
