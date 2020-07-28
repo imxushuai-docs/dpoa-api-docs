@@ -7,13 +7,13 @@ POA按钮权限问题
 - All：包含权限如下
   - update
   - audit log
+  - share
   - view
+  - activate：仅draft状态的POA才显示此操作
   - revoked：仅Activated状态的POA才显示此操作
   - 特殊操作：consent，仅角色为Grantor时拥有此操作
 - Access：包含权限如下
   - View
-  - Download
-  - Print
 - None或null：包含权限如下
   - Request
 
