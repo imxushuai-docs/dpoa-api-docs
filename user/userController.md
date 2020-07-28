@@ -100,3 +100,36 @@ GET /api/user/current
     "roles": null
 }
 ```
+
+# 选择用户角色
+
+当用户角色为空时，需要先选择用户角色
+
+## URL
+
+```http
+POST /api/user/choose/role
+```
+
+## 参数
+
+以下参数在`request body`提交
+
+- userId：user id
+- roleName：角色名称
+  - ROLE_GRANTOR
+  - ROLE_SDM
+  - ROLE_ASSESSOR
+  - ROLE_THIRD_PARTY
+  - ROLE_NOTARY
+  - ROLE_WITNESS
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
