@@ -131,3 +131,9 @@ DPOA API 文档说明
 
 - [【查询详情】](poa/remark.md)POA操作权限说明
 - [【查看详情】](user/userController.md#选择用户角色)新增选择用户角色API
+
+## 2020-08-21
+
+- [【查看详情】](auditlog/auditLogController.md#记录操作日志)记录用户操作日志
+- [【查看详情】](user/userController.md#创建用户)新增用户新增和更新API以及用户general consent相关API
+

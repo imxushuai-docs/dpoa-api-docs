@@ -1,3 +1,18 @@
+# 新数据结构对应老数据结构
+
+- lastName：givenName
+- firstName：surname
+- sex：extension_b5c04d56d76b4ae085b6a3c7b5379c26_sex
+- DOB：Azure ad不支持，先不管
+- email：按我给你说的优先级来取
+- phoneNumber：extension_b5c04d56d76b4ae085b6a3c7b5379c26_phoneNumber
+- address1：streetAddress
+- address2：extension_b5c04d56d76b4ae085b6a3c7b5379c26_address2
+- city：city
+- postalCode：postalCode
+- provinceOrTerritory：state
+- role：extension_b5c04d56d76b4ae085b6a3c7b5379c26_role
+
 # 条件查询用户
 
 按条件分页查询用户列表，条件包含：角色，名称，手机号码，email，生日
@@ -123,6 +138,128 @@ POST /api/user/choose/role
   - ROLE_THIRD_PARTY
   - ROLE_NOTARY
   - ROLE_WITNESS
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
+# 创建用户
+
+创建用户
+
+## URL
+
+```http
+POST api/user/create
+```
+
+## 参数
+
+参考顶部新的用户数据格式
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
+# 更新用户
+
+更新用户信息
+
+## URL
+
+```http
+POST api/user/update
+```
+
+## 参数
+
+参考顶部新的用户数据格式
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
+# 修改密码
+
+修改当前登录用户的密码
+
+## URL
+
+ ```http
+POST api/user/change/password
+ ```
+
+## 参数
+
+以`request body`提交
+
+- password
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
+# 获取用户general consent
+
+获取用户的general consent
+
+## URL
+
+```http
+GET api/user/general/consent
+```
+
+## 参数
+
+无
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+
+# 确认general consent
+
+用户选择同意或是拒绝general consent
+
+## URL
+
+```http
+POST api/user/change/consent
+```
+
+## 参数
+
+以`request body`提交
+
+- id
+- consent
+- flag
+- userId：当前登录的用户ID
 
 ## 返回值
 

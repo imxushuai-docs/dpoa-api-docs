@@ -37,3 +37,30 @@ GET /api/auditlog/query/{entityId}/{type}
 }
 ```
 
+# 记录操作日志
+
+记录用户操作日志，如：下载，打印POA等操作
+
+## URL
+
+```http
+POST /api/auditlog/record
+```
+
+## 参数
+
+在`request body`中提交
+
+- entityId：POA ID或者notary id
+- entityType：PoA或者Notary
+- action：操作，Download/Print等
+
+## 返回值
+
+```json
+{
+    "data":null,
+    "message":"success"
+}
+```
+

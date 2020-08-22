@@ -20,7 +20,7 @@
 * [8. Audit Log API]()
   - [8.1 Audit Log API](auditlog/auditLogController.md)
 * [9. 数据字典API]()
-  - [9.1 数据字典API](dict/dictCsontroller.md)
+  - [9.1 数据字典API](dict/dictController.md)
 * [10. Compose模块API]()
   - [10.1 pre meeting api](compose/preMeetingController.md)
   - [10.2 template api](compose/templateController.md)
