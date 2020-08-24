@@ -324,3 +324,70 @@ POST api/poa/upload/step/{step}
 }
 ```
 
+# 查询POA Upload信息
+
+查询POA upload中的信息，用于分步上传到一半关闭页面，后续继续修改poa信息使用
+
+## URL
+
+```http
+GET api/poa/upload/info/{poaId}
+```
+
+## 参数
+
+- poaId：poa id
+
+## 返回值
+
+```json
+{
+    "data": {
+        "id": "402880eb741e5fae01741e611f4d0001",
+        "name": "grantor xu",
+        "type": "upload",
+        "uploadPoaFileType": null,
+        "grantor": "f96470ce-5ba9-4054-9926-95e8e368c7e5",
+        "prepared": null,
+        "poaType": null,
+        "poaParam": null,
+        "createdIn": null,
+        "activatedIn": null,
+        "timeFrom": null,
+        "timeTo": null,
+        "affidavitForActivation": null,
+        "capacityAssessment": null,
+        "consentAndDirection": "402880eb741e5fae01741e6125260002",
+        "sdmMethod": null,
+        "fileId": null,
+        "sendNotification": null,
+        "poaStatus": "Draft",
+        "currentStep": 1,
+        "createBy": "f616d819-5b10-4142-a9f9-66916985ffb0",
+        "updateBy": "f616d819-5b10-4142-a9f9-66916985ffb0",
+        "createdTime": "2020-08-24T02:51:53.281+0000",
+        "updatedTime": "2020-08-24T02:51:53.281+0000",
+        "authority": null,
+        "grantorName": null,
+        "preparedBy": null,
+        "fileIdStr": null,
+        "preparedInfo": null,
+        "grantorInfo": {},
+        "assessorInfo": null,
+        "sdmList": null,
+        "witnessList": null,
+        "consentList": [
+            {
+                "id": "402880eb741e5fae01741e6125260002",
+                "consent": "",
+                "prefix": null,
+                "suffix": null,
+                "status": "true",
+                "label": "General Consent"
+            }
+        ]
+    },
+    "message": "Successful operation!"
+}
+```
+
