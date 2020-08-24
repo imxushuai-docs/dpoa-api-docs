@@ -137,3 +137,6 @@ DPOA API 文档说明
 - [【查看详情】](auditlog/auditLogController.md#记录操作日志)记录用户操作日志
 - [【查看详情】](user/userController.md#创建用户)新增用户新增和更新API以及用户general consent相关API
 
+## 2020-08-24
+
+- [【查看详情】](poa/poaController.md#分步骤提交Poa)新增分步提交POA的API

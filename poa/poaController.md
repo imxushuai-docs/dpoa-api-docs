@@ -288,3 +288,39 @@ GET /api/poa/query/{poaId}
 }
 ```
 
+# 分步骤提交Poa
+
+分步骤提交保存POA信息
+
+## URL
+
+```http
+POST api/poa/upload/step/{step}
+```
+
+## 参数
+
+以下参数在`request body`中提交
+
+- 步骤为`1`时
+  - grantor：grantor ID
+  - consentList：数组，数组中的元素为对象
+    - consent：consent内容
+    - label：consent的label
+    - status：consent的状态，字符串的`true`或者`false`
+- 步骤为`2`时
+  - preparedInfo：创建人信息，为对象，与之前版本的用户信息提交的字段一致
+- 步骤为`3`时
+  - 其他参数，参考之前的upload上传
+
+## 返回值
+
+```json
+{
+    "data":{
+        与提交的数据格式一致
+    },
+	"message":"success"
+}
+```
+
