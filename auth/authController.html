@@ -1,0 +1,745 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.1 认证相关API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. 认证相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="authController.html">
+            
+                <a href="authController.html">
+            
+                    
+                    1.1 认证相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. 文件相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../file/fileController.html">
+            
+                <a href="../file/fileController.html">
+            
+                    
+                    2.1 文件上传相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. Notary API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../notary/notaryController.html">
+            
+                <a href="../notary/notaryController.html">
+            
+                    
+                    3.1 Notary API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. PoA API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../poa/poaController.html">
+            
+                <a href="../poa/poaController.html">
+            
+                    
+                    4.1 PoA API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../poa/remark.html">
+            
+                <a href="../poa/remark.html">
+            
+                    
+                    4.2 POA操作权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../requests/requestsController.html">
+            
+                <a href="../requests/requestsController.html">
+            
+                    
+                    5. Requests相关API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../requests/requestsController.html">
+            
+                <a href="../requests/requestsController.html">
+            
+                    
+                    5.1 Requests相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../requests/sendRequestController.html">
+            
+                <a href="../requests/sendRequestController.html">
+            
+                    
+                    5.2 发送请求相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. Share相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../share/shareController.html">
+            
+                <a href="../share/shareController.html">
+            
+                    
+                    6.1 Share相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    7. 用户信息相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../user/userController.html">
+            
+                <a href="../user/userController.html">
+            
+                    
+                    7.1 用户信息相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    8. Audit Log API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../auditlog/auditLogController.html">
+            
+                <a href="../auditlog/auditLogController.html">
+            
+                    
+                    8.1 Audit Log API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    9. 数据字典API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../dict/dictController.html">
+            
+                <a href="../dict/dictController.html">
+            
+                    
+                    9.1 数据字典API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    10. Compose模块API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../compose/preMeetingController.html">
+            
+                <a href="../compose/preMeetingController.html">
+            
+                    
+                    10.1 pre meeting api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../compose/templateController.html">
+            
+                <a href="../compose/templateController.html">
+            
+                    
+                    10.2 template api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../compose/categoryController.html">
+            
+                <a href="../compose/categoryController.html">
+            
+                    
+                    10.3 category api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../compose/poaComposeDraft.html">
+            
+                <a href="../compose/poaComposeDraft.html">
+            
+                    
+                    10.4 poa compose draft
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    11. Notice通知API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../notice/noticeController.html">
+            
+                <a href="../notice/noticeController.html">
+            
+                    
+                    11.1 Notice通知相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.1 认证相关API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x767B;&#x5F55;"><b>1. </b>&#x767B;&#x5F55;</a></li><ul><li><span class="title-icon "></span><a href="#url"><b>1.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;"><b>1.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;"><b>1.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x6CE8;&#x518C;"><b>2. </b>&#x6CE8;&#x518C;</a></li><ul><li><span class="title-icon "></span><a href="#url_1"><b>2.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_1"><b>2.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_1"><b>2.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#refresh-token"><b>3. </b>refresh token</a></li><ul><li><span class="title-icon "></span><a href="#url_2"><b>3.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_2"><b>3.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_2"><b>3.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul></ul></div><a href="#&#x767B;&#x5F55;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x767B;&#x5F55;"><a name="&#x767B;&#x5F55;" class="anchor-navigation-ex-anchor" href="#&#x767B;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x767B;&#x5F55;</h1>
+<p>&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x767B;&#x5F55;&#x3002;&#x76EE;&#x524D;&#x4EC5;&#x96C6;&#x6210;microsoft(Azure AD) login</p>
+<h2 id="url"><a name="url" class="anchor-navigation-ex-anchor" href="#url"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/auth/login
+</code></pre>
+<h2 id="&#x53C2;&#x6570;"><a name="&#x53C2;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;<code>json</code>&#x683C;&#x5F0F;&#x4F20;&#x9012;&#x4E0B;&#x5217;&#x53C2;&#x6570;</p>
+<ul>
+<li>username&#xFF1A;&#x7528;&#x6237;&#x540D;&#xFF08;&#x975E;&#x7B2C;&#x4E09;&#x65B9;&#x767B;&#x5F55;&#x4F7F;&#x7528;&#xFF09;</li>
+<li>password&#xFF1A;&#x5BC6;&#x7801;&#xFF08;&#x975E;&#x7B2C;&#x4E09;&#x65B9;&#x767B;&#x5F55;&#x4F7F;&#x7528;&#xFF09;</li>
+<li>token&#xFF1A;&#x7B2C;&#x4E09;&#x65B9;&#x767B;&#x5F55;&#x540E;&#x83B7;&#x53D6;&#x5230;&#x7684; <code>token</code></li>
+<li>source&#xFF1A;&#x7528;&#x6237;&#x6765;&#x6E90;&#xFF0C;&#x53D6;&#x503C;&#x4E3A;&#x4EE5;&#x4E0B;&#x56DB;&#x79CD;<ul>
+<li>Google</li>
+<li>Facebook</li>
+<li>AzureAD</li>
+<li>LocalSystem</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;"><a name="&#x8FD4;&#x56DE;&#x503C;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cce872f3-d22d-4db1-8514-e5eabd891392&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;username&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;roles&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;ROLE_USER&quot;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;accessToken&quot;</span><span class="token operator">:</span> <span class="token string">&quot;eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjY2U4NzJmMy1kMjJkLTRkYjEtODUxNC1lNWVhYmQ4OTEzOTIiLCJpYXQiOjE1OTQwMDI4NDEsImV4cCI6MTU5NDAwNjc0MX0.zPvtXa-k8uuSqOiEDiZ_0lyngm12C3Y8w9yxCY4LBvsvz3ZFE7hS9opmMnqqJxWcjqJmE-resi9aknhvBZKxsQ&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;tokenType&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Bearer&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x540E;&#x7EED;&#x8C03;&#x7528;<code>API</code>&#xFF0C;&#x9700;&#x8981;&#x5728;&#x8BF7;&#x6C42;&#x7684;<code>header</code>&#x5E26;&#x4E0A;<code>accessToken</code></p>
+<p><code>Authorization:Bearer token</code></p>
+<h1 id="&#x6CE8;&#x518C;"><a name="&#x6CE8;&#x518C;" class="anchor-navigation-ex-anchor" href="#&#x6CE8;&#x518C;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x6CE8;&#x518C;</h1>
+<p>&#x6CE8;&#x518C;&#x8D26;&#x53F7;&#x5230;&#x7CFB;&#x7EDF;&#xFF0C;&#x4EC5;&#x7CFB;&#x7EDF;&#x5185;&#x90E8;&#x7528;&#x6237;&#x4F1A;&#x4F7F;&#x7528;&#x8BE5;&#x529F;&#x80FD;&#x3002; &#xFF08;&#x5373;source = LocalSystem&#x7684;&#x8D26;&#x53F7;&#xFF09;</p>
+<h2 id="url_1"><a name="url_1" class="anchor-navigation-ex-anchor" href="#url_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/auth/register
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_1"><a name="&#x53C2;&#x6570;_1" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;<code>json</code>&#x683C;&#x5F0F;&#x4F20;&#x9012;&#x4E0B;&#x5217;&#x53C2;&#x6570;</p>
+<ul>
+<li>email&#xFF1A;&#x90AE;&#x7BB1;</li>
+<li>source&#xFF1A;&#x7528;&#x6237;&#x6765;&#x6E90;&#xFF0C;&#x56FA;&#x5B9A;&#x4E3A;&#xFF1A;<code>LocalSystem</code></li>
+<li>userEntity&#xFF1A;&#x8BE5;&#x5B57;&#x6BB5;&#x662F;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x63D0;&#x4EA4;&#x7528;&#x6237;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x4E0B;<ul>
+<li>lastName&#xFF1A;&#x540D;&#xFF08;&#x5FC5;&#x586B;&#xFF09;</li>
+<li>firstName&#xFF1A;&#x59D3;&#xFF08;&#x5FC5;&#x586B;&#xFF09;</li>
+<li>sex&#xFF1A;&#x6027;&#x522B;</li>
+<li>dateOfBirth&#xFF1A;&#x51FA;&#x751F;&#x65E5;&#x671F;&#xFF08;&#x5FC5;&#x586B;&#xFF09;</li>
+<li>phoneNumber&#xFF1A;&#x624B;&#x673A;&#x53F7;&#x7801;&#xFF08;&#x5FC5;&#x586B;&#xFF09;</li>
+<li>address1&#xFF1A;&#x5730;&#x5740;</li>
+<li>address2&#xFF1A;&#x5907;&#x7528;&#x5730;&#x5740;</li>
+<li>city&#xFF1A;&#x6240;&#x5728;&#x57CE;&#x5E02;</li>
+<li>provinceOrTerritory&#xFF1A;&#x6240;&#x5728;&#x7701;&#x5E02;&#x6216;&#x5730;&#x533A;</li>
+<li>postalCode&#xFF1A;&#x90AE;&#x653F;&#x7F16;&#x7801;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_1"><a name="&#x8FD4;&#x56DE;&#x503C;_1" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token string">&quot;id&quot;</span>&#xFF1A;<span class="token string">&quot;1e8d6a5bcc783a0a49901af3eaee174&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;lastName&quot;</span><span class="token operator">:</span><span class="token string">&quot;smith&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;firstName&quot;</span><span class="token operator">:</span><span class="token string">&quot;john&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;sex&quot;</span><span class="token operator">:</span><span class="token string">&quot;male&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;dateOfBirth&quot;</span><span class="token operator">:</span><span class="token string">&quot;2020-07-02&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;phoneNumber&quot;</span><span class="token operator">:</span><span class="token string">&quot;12345678901&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;address1&quot;</span><span class="token operator">:</span><span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;address2&quot;</span><span class="token operator">:</span><span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;city&quot;</span><span class="token operator">:</span><span class="token string">&quot;xxxxx&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;provinceOrTerritory&quot;</span><span class="token operator">:</span><span class="token string">&quot;canada&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;postalCode&quot;</span><span class="token operator">:</span><span class="token string">&quot;123456&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;source&quot;</span><span class="token operator">:</span><span class="token string">&quot;LocalSystem&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="refresh-token"><a name="refresh-token" class="anchor-navigation-ex-anchor" href="#refresh-token"><i class="fa fa-link" aria-hidden="true"></i></a>3. refresh token</h1>
+<p>refresh token</p>
+<h2 id="url_2"><a name="url_2" class="anchor-navigation-ex-anchor" href="#url_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/auth/refreshToken
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_2"><a name="&#x53C2;&#x6570;_2" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;<code>request body</code>&#x63D0;&#x4EA4;</p>
+<ul>
+<li>refreshToken</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_2"><a name="&#x8FD4;&#x56DE;&#x503C;_2" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;402880e57323449c0173234b4deb0100&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;username&quot;</span><span class="token operator">:</span> <span class="token string">&quot;test@test.com&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;test@test.com&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;refreshToken&quot;</span><span class="token operator">:</span> <span class="token string">&quot;eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1OTQ4ODc2NzEsImV4cCI6MTU5NDg4OTQ4MX0.d71nuIgSe9BiXiw0IQFvba9_abnxHpZlHTeHUewStM8cLtM-Qt7ySFTPVdEHx6kD2sGexUJm2UrngmumdpqqEA&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;roles&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;ROLE_LAWYER&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ROLE_GRANTOR&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ROLE_SDM&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ROLE_ASSESSOR&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ROLE_THIRD_PARTY&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ROLE_NOTARY&quot;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;accessToken&quot;</span><span class="token operator">:</span> <span class="token string">&quot;eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI0MDI4ODBlNTczMjM0NDljMDE3MzIzNGI0ZGViMDEwMCIsImlhdCI6MTU5NDg4ODE0NiwiZXhwIjoxNTk0ODg4MTc2fQ.ssiI_JWdinrFwP4WPGw8lcKY6ZjlUE-4gZY9dkvqv-U3LE8N6OqjV2L-o4Nl0JIMmX6vVDz0o4IaQvAtgbGBLw&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;tokenType&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Bearer&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.1 认证相关API","level":"1.2.1","depth":2,"next":{"title":"2. 文件相关API","level":"1.3","depth":1,"ref":"","articles":[{"title":"2.1 文件上传相关API","level":"1.3.1","depth":2,"path":"file/fileController.md","ref":"file/fileController.md","articles":[]}]},"previous":{"title":"1. 认证相关API","level":"1.2","depth":1,"ref":"","articles":[{"title":"1.1 认证相关API","level":"1.2.1","depth":2,"path":"auth/authController.md","ref":"auth/authController.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","splitter","-lunr","-search","search-plus","prism","prism-themes","-highlight","anchors","anchor-navigation-ex","alerts"],"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"splitter":{},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"prism-themes":{},"alerts":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"auth/authController.md","mtime":"2020-08-27T07:25:59.912Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-27T07:26:46.798Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

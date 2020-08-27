@@ -1,0 +1,979 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.1 PoA API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="remark.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. 认证相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../auth/authController.html">
+            
+                <a href="../auth/authController.html">
+            
+                    
+                    1.1 认证相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. 文件相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../file/fileController.html">
+            
+                <a href="../file/fileController.html">
+            
+                    
+                    2.1 文件上传相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. Notary API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../notary/notaryController.html">
+            
+                <a href="../notary/notaryController.html">
+            
+                    
+                    3.1 Notary API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. PoA API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="poaController.html">
+            
+                <a href="poaController.html">
+            
+                    
+                    4.1 PoA API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="remark.html">
+            
+                <a href="remark.html">
+            
+                    
+                    4.2 POA操作权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../requests/requestsController.html">
+            
+                <a href="../requests/requestsController.html">
+            
+                    
+                    5. Requests相关API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../requests/requestsController.html">
+            
+                <a href="../requests/requestsController.html">
+            
+                    
+                    5.1 Requests相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../requests/sendRequestController.html">
+            
+                <a href="../requests/sendRequestController.html">
+            
+                    
+                    5.2 发送请求相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. Share相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../share/shareController.html">
+            
+                <a href="../share/shareController.html">
+            
+                    
+                    6.1 Share相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    7. 用户信息相关API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../user/userController.html">
+            
+                <a href="../user/userController.html">
+            
+                    
+                    7.1 用户信息相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    8. Audit Log API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../auditlog/auditLogController.html">
+            
+                <a href="../auditlog/auditLogController.html">
+            
+                    
+                    8.1 Audit Log API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    9. 数据字典API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../dict/dictController.html">
+            
+                <a href="../dict/dictController.html">
+            
+                    
+                    9.1 数据字典API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    10. Compose模块API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../compose/preMeetingController.html">
+            
+                <a href="../compose/preMeetingController.html">
+            
+                    
+                    10.1 pre meeting api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../compose/templateController.html">
+            
+                <a href="../compose/templateController.html">
+            
+                    
+                    10.2 template api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../compose/categoryController.html">
+            
+                <a href="../compose/categoryController.html">
+            
+                    
+                    10.3 category api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../compose/poaComposeDraft.html">
+            
+                <a href="../compose/poaComposeDraft.html">
+            
+                    
+                    10.4 poa compose draft
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    11. Notice通知API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../notice/noticeController.html">
+            
+                <a href="../notice/noticeController.html">
+            
+                    
+                    11.1 Notice通知相关API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >4.1 PoA API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#poa&#x4E0A;&#x4F20;"><b>1. </b>POA&#x4E0A;&#x4F20;</a></li><ul><li><span class="title-icon "></span><a href="#url"><b>1.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;"><b>1.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;"><b>1.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#poa&#x66F4;&#x65B0;"><b>2. </b>POA&#x66F4;&#x65B0;</a></li><ul><li><span class="title-icon "></span><a href="#url_1"><b>2.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_1"><b>2.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_1"><b>2.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#poa&#x67E5;&#x8BE2;"><b>3. </b>POA&#x67E5;&#x8BE2;</a></li><ul><li><span class="title-icon "></span><a href="#url_2"><b>3.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_2"><b>3.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_2"><b>3.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4FEE;&#x6539;&#x6307;&#x5B9A;poa&#x72B6;&#x6001;"><b>4. </b>&#x4FEE;&#x6539;&#x6307;&#x5B9A;POA&#x72B6;&#x6001;</a></li><ul><li><span class="title-icon "></span><a href="#url_3"><b>4.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_3"><b>4.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_3"><b>4.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x83B7;&#x53D6;&#x6307;&#x5B9A;poa&#x7684;consent"><b>5. </b>&#x83B7;&#x53D6;&#x6307;&#x5B9A;POA&#x7684;consent</a></li><ul><li><span class="title-icon "></span><a href="#url_4"><b>5.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_4"><b>5.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_4"><b>5.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x53D8;&#x66F4;poa-consent&#x7684;&#x72B6;&#x6001;"><b>6. </b>&#x53D8;&#x66F4;poa consent&#x7684;&#x72B6;&#x6001;</a></li><ul><li><span class="title-icon "></span><a href="#url_5"><b>6.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_5"><b>6.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_5"><b>6.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#ready&#x72B6;&#x6001;&#x7684;poa&#x53D8;&#x66F4;&#x4E3A;activated"><b>7. </b>ready&#x72B6;&#x6001;&#x7684;POA&#x53D8;&#x66F4;&#x4E3A;activated</a></li><ul><li><span class="title-icon "></span><a href="#url_6"><b>7.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_6"><b>7.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_6"><b>7.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x6309;id&#x67E5;&#x8BE2;poa&#x4FE1;&#x606F;"><b>8. </b>&#x6309;ID&#x67E5;&#x8BE2;POA&#x4FE1;&#x606F;</a></li><ul><li><span class="title-icon "></span><a href="#url_7"><b>8.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_7"><b>8.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_7"><b>8.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;poa"><b>9. </b>&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;Poa</a></li><ul><li><span class="title-icon "></span><a href="#url_8"><b>9.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_8"><b>9.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_8"><b>9.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul><li><span class="title-icon "></span><a href="#&#x67E5;&#x8BE2;poa-upload&#x4FE1;&#x606F;"><b>10. </b>&#x67E5;&#x8BE2;POA Upload&#x4FE1;&#x606F;</a></li><ul><li><span class="title-icon "></span><a href="#url_9"><b>10.1. </b>URL</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;_9"><b>10.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;_9"><b>10.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li></ul></ul></div><a href="#poa&#x4E0A;&#x4F20;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="poa&#x4E0A;&#x4F20;"><a name="poa&#x4E0A;&#x4F20;" class="anchor-navigation-ex-anchor" href="#poa&#x4E0A;&#x4F20;"><i class="fa fa-link" aria-hidden="true"></i></a>1. POA&#x4E0A;&#x4F20;</h1>
+<p>&#x4E0A;&#x4F20;POA</p>
+<h2 id="url"><a name="url" class="anchor-navigation-ex-anchor" href="#url"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/poa/upload
+</code></pre>
+<h2 id="&#x53C2;&#x6570;"><a name="&#x53C2;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x53C2;&#x6570;</h2>
+<p>&#x4E0B;&#x5217;&#x53C2;&#x6570;&#x4EE5;<code>json</code>&#x683C;&#x5F0F;&#x5728;<code>request body</code>&#x63D0;&#x4EA4;&#xFF1A;</p>
+<ul>
+<li><strong>type</strong>&#xFF1A;POA&#x7684;&#x4E0A;&#x4F20;&#x65B9;&#x5F0F;&#xFF0C;&#x6709;&#x4EE5;&#x4E0B;&#x4E24;&#x79CD;&#x503C;<ul>
+<li>upload</li>
+<li>compose</li>
+</ul>
+</li>
+<li><strong>uploadPoaFileType</strong>&#xFF1A;&#x4E0A;&#x4F20;&#x7684;POA&#x6587;&#x4EF6;&#x7C7B;&#x578B;&#xFF0C;&#x6709;&#x4EE5;&#x4E0B;&#x503C;&#xFF1A;<ul>
+<li>ORIGINAL_DOCUMENT</li>
+<li>CERTIFIED_NOTARIZED</li>
+<li>PHOTO_COPY</li>
+</ul>
+</li>
+<li><strong>grantorInfo</strong>&#xFF1A;grantor&#xFF0C;&#x5BF9;&#x8C61;&#xFF0C;&#x5B57;&#x6BB5;&#x5982;&#x4E0B;&#xFF1A;<ul>
+<li>lastName</li>
+<li>firstName</li>
+<li>sex</li>
+<li>dateOfBirth</li>
+<li><strong>email</strong></li>
+<li>phoneNumber</li>
+<li>address1</li>
+<li>address2</li>
+<li>provinceOrTerritory</li>
+<li>city</li>
+<li>postalCode</li>
+</ul>
+</li>
+<li><strong>preparedInfo</strong>&#xFF1A;&#x4E0A;&#x4F20;&#x4EBA;&#xFF0C;&#x4E3A;&#x5BF9;&#x8C61;<ul>
+<li>lastName</li>
+<li>firstName</li>
+<li>sex</li>
+<li>dateOfBirth</li>
+<li><strong>email</strong></li>
+<li>phoneNumber</li>
+<li>address1</li>
+<li>address2</li>
+<li>provinceOrTerritory</li>
+<li>city</li>
+<li>postalCode</li>
+</ul>
+</li>
+<li><strong>poaType</strong>&#xFF1A;poa&#x7C7B;&#x578B;&#xFF0C;&#x6709;&#x4EE5;&#x4E0B;&#x503C;&#xFF1A;<ul>
+<li>PERSONAL_HEALTH</li>
+<li>FINANCE_PROPERTY</li>
+</ul>
+</li>
+<li>poaParam&#xFF1A;&#x5F53;<code>poaType = FINANCE_PROPERTY</code>&#x65F6;&#xFF0C;&#x6709;&#x7279;&#x6B8A;&#x7684;&#x5185;&#x5BB9;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#xFF0C;&#x8BE5;&#x5B57;&#x6BB5;&#x4E3A;&#x5BF9;&#x8C61;&#x7C7B;&#x578B;</li>
+<li>createdIn&#xFF1A;poa&#x6587;&#x6863;&#x521B;&#x5EFA;&#x4E8E;&#x4EC0;&#x4E48;&#x5730;&#x65B9;</li>
+<li>activatedIn&#xFF1A;poa&#x6587;&#x6863;&#x4E0E;&#x4EC0;&#x4E48;&#x5730;&#x65B9;&#x751F;&#x6548;</li>
+<li>timeFrom&#xFF1A;&#x4ECE;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5F00;&#x59CB;&#x751F;&#x6548;</li>
+<li>timeTo&#xFF1A;&#x5230;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5931;&#x6548;</li>
+<li>sdmList&#xFF1A;&#x6570;&#x7EC4;&#xFF0C;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5BF9;&#x8C61;&#x683C;&#x5F0F;&#x5982;&#x4E0B;<ul>
+<li>lastName</li>
+<li>firstName</li>
+<li>sex</li>
+<li>dateOfBirth</li>
+<li>email</li>
+<li>phoneNumber</li>
+<li>address1</li>
+<li>address2</li>
+<li>provinceOrTerritory</li>
+<li>city</li>
+<li>postalCode</li>
+</ul>
+</li>
+<li>witnessList&#xFF1A;&#x6570;&#x7EC4;&#xFF0C;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;<ul>
+<li>lastName</li>
+<li>firstName</li>
+<li>sex</li>
+<li>dateOfBirth</li>
+<li>email</li>
+<li>phoneNumber</li>
+<li>address1</li>
+<li>address2</li>
+<li>provinceOrTerritory</li>
+<li>city</li>
+<li>postalCode</li>
+</ul>
+</li>
+<li>affidavitForActivation&#xFF1A;&#x8FD9;&#x4E5F;&#x662F;&#x6587;&#x4EF6;&#xFF0C;&#x8C03;&#x7528;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x5355;&#x72EC;&#x5B9A;&#x4E49;&#x7684;<code>containerName</code>&#x8FDB;&#x884C;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;</li>
+<li>capacityAssessment&#xFF1A;assessor id</li>
+<li>consentAndDirection&#xFF1A;&#x6388;&#x6743;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x80FD;&#x4E3A;ID&#x6216;json&#xFF0C;&#x5F85;&#x786E;&#x5B9A;</li>
+<li><strong>fileId</strong>&#xFF1A;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;ID</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;"><a name="&#x8FD4;&#x56DE;&#x503C;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<p>&#x548C;&#x4E0A;&#x4F20;&#x7684;&#x5185;&#x5BB9;&#x57FA;&#x672C;&#x4E00;&#x81F4;&#xFF0C;&#x4F1A;&#x591A;&#x51FA;ID&#x3002;</p>
+<h1 id="poa&#x66F4;&#x65B0;"><a name="poa&#x66F4;&#x65B0;" class="anchor-navigation-ex-anchor" href="#poa&#x66F4;&#x65B0;"><i class="fa fa-link" aria-hidden="true"></i></a>2. POA&#x66F4;&#x65B0;</h1>
+<p>&#x66F4;&#x65B0;&#x6307;&#x5B9A;POA</p>
+<h2 id="url_1"><a name="url_1" class="anchor-navigation-ex-anchor" href="#url_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/poa/update/{poaId}
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_1"><a name="&#x53C2;&#x6570;_1" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;&#x4E0A;&#x63D0;&#x4EA4;&#xFF1A;</p>
+<ul>
+<li>poaId&#xFF1A;&#x9700;&#x8981;&#x66F4;&#x6539;&#x7684;POA ID</li>
+</ul>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x4EE5;<code>json</code>&#x683C;&#x5F0F;&#x5728;<code>request body</code>&#x4E2D;&#x63D0;&#x4EA4;&#xFF1A;</p>
+<p>&#x1F446;&#x53C2;&#x8003;&#x65B0;&#x589E;POA&#x1F446;</p>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_1"><a name="&#x8FD4;&#x56DE;&#x503C;_1" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_1"><i class="fa fa-link" aria-hidden="true"></i></a>2.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<p>&#x548C;&#x4E0A;&#x4F20;&#x7684;&#x6570;&#x636E;&#x57FA;&#x672C;&#x4E00;&#x81F4;&#x3002;</p>
+<h1 id="poa&#x67E5;&#x8BE2;"><a name="poa&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#poa&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>3. POA&#x67E5;&#x8BE2;</h1>
+<p>&#x67E5;&#x8BE2;POA</p>
+<h2 id="url_2"><a name="url_2" class="anchor-navigation-ex-anchor" href="#url_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. URL</h2>
+<pre class="language-"><code class="lang-http">GET /api/poa/query
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_2"><a name="&#x53C2;&#x6570;_2" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x901A;&#x8FC7;&#x8868;&#x5355;&#x4E0A;&#x4F20;&#xFF1A;</p>
+<ul>
+<li>grantorLastName</li>
+<li>grantorPhoneNumber</li>
+<li>grantorDateOfBirth</li>
+<li>grantorEmail</li>
+<li>poaFileId</li>
+<li>poaType</li>
+<li>poaStatus</li>
+<li>timeFrom</li>
+<li>timeTo</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_2"><a name="&#x8FD4;&#x56DE;&#x503C;_2" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_2"><i class="fa fa-link" aria-hidden="true"></i></a>3.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">[</span><span class="token punctuation">{</span>
+    poaInfo...
+<span class="token punctuation">}</span><span class="token punctuation">]</span>
+</code></pre>
+<h1 id="&#x4FEE;&#x6539;&#x6307;&#x5B9A;poa&#x72B6;&#x6001;"><a name="&#x4FEE;&#x6539;&#x6307;&#x5B9A;poa&#x72B6;&#x6001;" class="anchor-navigation-ex-anchor" href="#&#x4FEE;&#x6539;&#x6307;&#x5B9A;poa&#x72B6;&#x6001;"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x4FEE;&#x6539;&#x6307;&#x5B9A;POA&#x72B6;&#x6001;</h1>
+<p>&#x4FEE;&#x6539;&#x6307;&#x5B9A;POA&#x72B6;&#x6001;</p>
+<h2 id="url_3"><a name="url_3" class="anchor-navigation-ex-anchor" href="#url_3"><i class="fa fa-link" aria-hidden="true"></i></a>4.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/poa/status
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_3"><a name="&#x53C2;&#x6570;_3" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_3"><i class="fa fa-link" aria-hidden="true"></i></a>4.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;<code>request body</code>&#x63D0;&#x4EA4;&#xFF1A;</p>
+<ul>
+<li>poaId&#xFF1A;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x72B6;&#x6001;&#x7684;POA ID</li>
+<li>status&#xFF1A;&#x66F4;&#x65B0;&#x4E3A;&#x4EC0;&#x4E48;&#x72B6;&#x6001;&#xFF0C;&#x6709;&#x6548;&#x7684;&#x72B6;&#x6001;&#x503C;&#x5982;&#x4E0B;<ul>
+<li>Activated</li>
+<li>Revoked</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_3"><a name="&#x8FD4;&#x56DE;&#x503C;_3" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_3"><i class="fa fa-link" aria-hidden="true"></i></a>4.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span><span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span><span class="token string">&quot;&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="&#x83B7;&#x53D6;&#x6307;&#x5B9A;poa&#x7684;consent"><a name="&#x83B7;&#x53D6;&#x6307;&#x5B9A;poa&#x7684;consent" class="anchor-navigation-ex-anchor" href="#&#x83B7;&#x53D6;&#x6307;&#x5B9A;poa&#x7684;consent"><i class="fa fa-link" aria-hidden="true"></i></a>5. &#x83B7;&#x53D6;&#x6307;&#x5B9A;POA&#x7684;consent</h1>
+<p>&#x83B7;&#x53D6;&#x6307;&#x5B9A;POA&#x7684;consent</p>
+<h2 id="url_4"><a name="url_4" class="anchor-navigation-ex-anchor" href="#url_4"><i class="fa fa-link" aria-hidden="true"></i></a>5.1. URL</h2>
+<pre class="language-"><code class="lang-http">GET /api/poa/consent/{poaId}
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_4"><a name="&#x53C2;&#x6570;_4" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_4"><i class="fa fa-link" aria-hidden="true"></i></a>5.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;&#x8DEF;&#x5F84;&#x4E0A;&#x63D0;&#x4EA4;</p>
+<ul>
+<li>poaId&#xFF1A;poa id</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_4"><a name="&#x8FD4;&#x56DE;&#x503C;_4" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_4"><i class="fa fa-link" aria-hidden="true"></i></a>5.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;consent&quot;</span><span class="token operator">:</span> <span class="token string">&quot;[{\&quot;order\&quot;:1,\&quot;content\&quot;:\&quot;All references to my Lawyer or the Company herein shall include any successor or relacement lawyer(s)/law firm or future custodian of the documents referenced in this Consent and Direction for whatever reason(&apos;Cusodian&apos;),however, such Custodian shall be bound by the terms of this Consent and Direction.\&quot;},{\&quot;order\&quot;:2,\&quot;content\&quot;:\&quot;I am providing this Consent and Direction freely, voluntarily without duress or threat from any other person, understanding and appreciating its intent to be relied on, even after my incapacity.\&quot;},{\&quot;order\&quot;:3,\&quot;content\&quot;:\&quot;The lawyer is permitted to maintain, store and keep a hardcopy or softcopy of the documents referenced in this Consent and Direction, the Lawyer is permitted to store the document electronically.\&quot;},{\&quot;order\&quot;:4,\&quot;content\&quot;:\&quot;I consent to the documents in this Consent and Direction to be uploaded/not uploaded to www.POAregistry.com. I consent to allow my name to be included in any searches of the registry with the same first name, middle name, last name and/or date of birth.\&quot;},{\&quot;order\&quot;:5,\&quot;content\&quot;:\&quot;I authorize the Lawyer to make notarial copies.\&quot;},{\&quot;order\&quot;:6,\&quot;content\&quot;:\&quot;This Consent and Direction may be executed by the undersigned in counterparts (including through the use of video witnessing) and may be delivered by facsimile or other means of electronic communication (in portable document format (&apos;pdf&apos;) or tagged image format (&apos;tif&apos;)) and all such counterparts, taken together, shall constitute an original document/Consent and Direction.\&quot;}]&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;suffix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;consent&quot;</span><span class="token operator">:</span> <span class="token string">&quot;[{\&quot;order\&quot;:7,\&quot;content\&quot;:\&quot;On (insert date) I signed a (insert type of POA) with (insert original law firm name and lawyer). I provided (insert original law firm) with (insert number of original documents remaining with Lawyer) original documents for safekeeping and to release it in accordance with this Consent and Direction.\&quot;},{\&quot;order\&quot;:8,\&quot;content\&quot;:\&quot;I authorize and direct the Lawyer to release or provide access to one or more copies of (insert the type of POA) to (insert who the Grantor selected as being able to have a copy of the POA) upon receiving written notice of the same and are under not required to confirm capacity of said person(s) prior to releasing said information. I authorize that copies of the document may be distributed via email or any other such electronic means.\&quot;},{\&quot;order\&quot;:9,\&quot;content\&quot;:\&quot;I further authorize that verification of (insert person from paragraph 7) shall be satisfied upon the delivery of (insert valid verification I further authorize that verification of (insert person from paragraph 7) shall be satisfied upon the delivery of (insert valid verification - ex. DL or other items raised by Security Session).\&quot;},{\&quot;order\&quot;:10,\&quot;content\&quot;:\&quot;I authorize that while I am capable, upon the request of any other person or entity (other than specified in paragraph 7), the Lawyer may disclose and/or release the following information about the POA.\&quot;},{\&quot;order\&quot;:11,\&quot;content\&quot;:\&quot;I authorize that while I am incapable, upon the request of any other person or entity (other than specified in paragraph 7), the Lawyer may disclose the following information about the POA.\&quot;},{\&quot;order\&quot;:12,\&quot;content\&quot;:\&quot;Notwithstanding anything in this Consent and Direction to the contrary, I authorize my Attorney to upload the (insert type of POA) to poaregistry.com. In the event that this clause conflicts with any other provision of this Consent and Direction, then this clause shall prevail.\&quot;},{\&quot;order\&quot;:13,\&quot;content\&quot;:\&quot;I authorize the Lawyer to destroy the original copies (updates to the system) of the Power of Attorney in the event I die without the need for a death certificate.\&quot;},{\&quot;order\&quot;:14,\&quot;content\&quot;:\&quot;I or my custodian may - This is my last in time - I will either continue to upload all subsequent POAs to this platform.\&quot;},{\&quot;order\&quot;:15,\&quot;content\&quot;:\&quot;I agree that I shall notify the company - or I shall notify the Company as or I shall indemnify the company.\&quot;},{\&quot;order\&quot;:16,\&quot;content\&quot;:\&quot;We do not guarantee - the current system doesn&apos;t - lawyer doesn&apos;t guarantee that it is the last in time.\&quot;},{\&quot;order\&quot;:17,\&quot;content\&quot;:\&quot;Consent to disbursements charge.\&quot;},{\&quot;order\&quot;:18,\&quot;content\&quot;:\&quot;Lawyer to add additional terms.\&quot;},{\&quot;order\&quot;:19,\&quot;content\&quot;:\&quot;You would want to be waiving, that if they one they know has been revoked. Received a resignation form.\&quot;},{\&quot;order\&quot;:20,\&quot;content\&quot;:\&quot;Guardian appointments by the court - revoked.\&quot;},{\&quot;order\&quot;:21,\&quot;content\&quot;:\&quot;Fiting in the afidaifts.\&quot;},{\&quot;order\&quot;:22,\&quot;content\&quot;:\&quot;Create custom space for retainer.\&quot;},{\&quot;order\&quot;:23,\&quot;content\&quot;:\&quot;Consent to lawyer changing the online status (if they know the client has revoked, resignation of SDM, death of Grantor, Guardian appointed by court - because that would automatically revoke these.\&quot;}]&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;suffix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Successful operation!&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="&#x53D8;&#x66F4;poa-consent&#x7684;&#x72B6;&#x6001;"><a name="&#x53D8;&#x66F4;poa-consent&#x7684;&#x72B6;&#x6001;" class="anchor-navigation-ex-anchor" href="#&#x53D8;&#x66F4;poa-consent&#x7684;&#x72B6;&#x6001;"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x53D8;&#x66F4;poa consent&#x7684;&#x72B6;&#x6001;</h1>
+<p>&#x53D8;&#x66F4;&#x6307;&#x5B9A;POA&#x7684;&#x6307;&#x5B9A;consent&#x7684;&#x72B6;&#x6001;</p>
+<h2 id="url_5"><a name="url_5" class="anchor-navigation-ex-anchor" href="#url_5"><i class="fa fa-link" aria-hidden="true"></i></a>6.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/poa/consent/change/status
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_5"><a name="&#x53C2;&#x6570;_5" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_5"><i class="fa fa-link" aria-hidden="true"></i></a>6.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x4EE5;<code>request body</code>&#x63D0;&#x4EA4;</p>
+<ul>
+<li>poaId&#xFF1A;poa id</li>
+<li>consentId&#xFF1A;consent id</li>
+<li>status&#xFF1A;&#x6539;&#x53D8;&#x540E;&#x7684;&#x72B6;&#x6001;&#xFF0C;<strong>&#x6CE8;&#x610F;&#xFF1A;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x7684;true&#x548C;false</strong><ul>
+<li>true</li>
+<li>false</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_5"><a name="&#x8FD4;&#x56DE;&#x503C;_5" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_5"><i class="fa fa-link" aria-hidden="true"></i></a>6.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Successful operation!&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="ready&#x72B6;&#x6001;&#x7684;poa&#x53D8;&#x66F4;&#x4E3A;activated"><a name="ready&#x72B6;&#x6001;&#x7684;poa&#x53D8;&#x66F4;&#x4E3A;activated" class="anchor-navigation-ex-anchor" href="#ready&#x72B6;&#x6001;&#x7684;poa&#x53D8;&#x66F4;&#x4E3A;activated"><i class="fa fa-link" aria-hidden="true"></i></a>7. ready&#x72B6;&#x6001;&#x7684;POA&#x53D8;&#x66F4;&#x4E3A;activated</h1>
+<p>&#x5C06;compose&#x65B9;&#x5F0F;&#x63D0;&#x4EA4;&#x7684;POA&#x6FC0;&#x6D3B;</p>
+<h2 id="url_6"><a name="url_6" class="anchor-navigation-ex-anchor" href="#url_6"><i class="fa fa-link" aria-hidden="true"></i></a>7.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST /api/poa/ready2activated
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_6"><a name="&#x53C2;&#x6570;_6" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_6"><i class="fa fa-link" aria-hidden="true"></i></a>7.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;<code>request body</code>&#x63D0;&#x4EA4;</p>
+<ul>
+<li>poaId&#xFF1A;poa id</li>
+<li>fileId&#xFF1A;file id</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_6"><a name="&#x8FD4;&#x56DE;&#x503C;_6" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_6"><i class="fa fa-link" aria-hidden="true"></i></a>7.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span><span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span><span class="token string">&quot;success&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="&#x6309;id&#x67E5;&#x8BE2;poa&#x4FE1;&#x606F;"><a name="&#x6309;id&#x67E5;&#x8BE2;poa&#x4FE1;&#x606F;" class="anchor-navigation-ex-anchor" href="#&#x6309;id&#x67E5;&#x8BE2;poa&#x4FE1;&#x606F;"><i class="fa fa-link" aria-hidden="true"></i></a>8. &#x6309;ID&#x67E5;&#x8BE2;POA&#x4FE1;&#x606F;</h1>
+<p>&#x6309;ID&#x67E5;&#x8BE2;POA&#x4FE1;&#x606F;</p>
+<h2 id="url_7"><a name="url_7" class="anchor-navigation-ex-anchor" href="#url_7"><i class="fa fa-link" aria-hidden="true"></i></a>8.1. URL</h2>
+<pre class="language-"><code class="lang-http">GET /api/poa/query/{poaId}
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_7"><a name="&#x53C2;&#x6570;_7" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_7"><i class="fa fa-link" aria-hidden="true"></i></a>8.2. &#x53C2;&#x6570;</h2>
+<ul>
+<li>poaId</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_7"><a name="&#x8FD4;&#x56DE;&#x503C;_7" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_7"><i class="fa fa-link" aria-hidden="true"></i></a>8.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span><span class="token string">&quot;success&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;poa"><a name="&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;poa" class="anchor-navigation-ex-anchor" href="#&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;poa"><i class="fa fa-link" aria-hidden="true"></i></a>9. &#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;Poa</h1>
+<p>&#x5206;&#x6B65;&#x9AA4;&#x63D0;&#x4EA4;&#x4FDD;&#x5B58;POA&#x4FE1;&#x606F;</p>
+<h2 id="url_8"><a name="url_8" class="anchor-navigation-ex-anchor" href="#url_8"><i class="fa fa-link" aria-hidden="true"></i></a>9.1. URL</h2>
+<pre class="language-"><code class="lang-http">POST api/poa/upload/step/{step}
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_8"><a name="&#x53C2;&#x6570;_8" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_8"><i class="fa fa-link" aria-hidden="true"></i></a>9.2. &#x53C2;&#x6570;</h2>
+<p>&#x4EE5;&#x4E0B;&#x53C2;&#x6570;&#x5728;<code>request body</code>&#x4E2D;&#x63D0;&#x4EA4;</p>
+<ul>
+<li>&#x6B65;&#x9AA4;&#x4E3A;<code>1</code>&#x65F6;<ul>
+<li>grantor&#xFF1A;grantor ID</li>
+<li>consentList&#xFF1A;&#x6570;&#x7EC4;&#xFF0C;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x4E3A;&#x5BF9;&#x8C61;<ul>
+<li>consent&#xFF1A;consent&#x5185;&#x5BB9;</li>
+<li>label&#xFF1A;consent&#x7684;label</li>
+<li>status&#xFF1A;consent&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x7684;<code>true</code>&#x6216;&#x8005;<code>false</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x6B65;&#x9AA4;&#x4E3A;<code>2</code>&#x65F6;<ul>
+<li>preparedInfo&#xFF1A;&#x521B;&#x5EFA;&#x4EBA;&#x4FE1;&#x606F;&#xFF0C;&#x4E3A;&#x5BF9;&#x8C61;&#xFF0C;&#x4E0E;&#x4E4B;&#x524D;&#x7248;&#x672C;&#x7684;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x63D0;&#x4EA4;&#x7684;&#x5B57;&#x6BB5;&#x4E00;&#x81F4;</li>
+</ul>
+</li>
+<li>&#x6B65;&#x9AA4;&#x4E3A;<code>3</code>&#x65F6;<ul>
+<li>&#x5176;&#x4ED6;&#x53C2;&#x6570;&#xFF0C;&#x53C2;&#x8003;&#x4E4B;&#x524D;&#x7684;upload&#x4E0A;&#x4F20;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_8"><a name="&#x8FD4;&#x56DE;&#x503C;_8" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_8"><i class="fa fa-link" aria-hidden="true"></i></a>9.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span><span class="token punctuation">{</span>
+        &#x4E0E;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x4E00;&#x81F4;
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span><span class="token string">&quot;success&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="&#x67E5;&#x8BE2;poa-upload&#x4FE1;&#x606F;"><a name="&#x67E5;&#x8BE2;poa-upload&#x4FE1;&#x606F;" class="anchor-navigation-ex-anchor" href="#&#x67E5;&#x8BE2;poa-upload&#x4FE1;&#x606F;"><i class="fa fa-link" aria-hidden="true"></i></a>10. &#x67E5;&#x8BE2;POA Upload&#x4FE1;&#x606F;</h1>
+<p>&#x67E5;&#x8BE2;POA upload&#x4E2D;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x7528;&#x4E8E;&#x5206;&#x6B65;&#x4E0A;&#x4F20;&#x5230;&#x4E00;&#x534A;&#x5173;&#x95ED;&#x9875;&#x9762;&#xFF0C;&#x540E;&#x7EED;&#x7EE7;&#x7EED;&#x4FEE;&#x6539;poa&#x4FE1;&#x606F;&#x4F7F;&#x7528;</p>
+<h2 id="url_9"><a name="url_9" class="anchor-navigation-ex-anchor" href="#url_9"><i class="fa fa-link" aria-hidden="true"></i></a>10.1. URL</h2>
+<pre class="language-"><code class="lang-http">GET api/poa/upload/info/{poaId}
+</code></pre>
+<h2 id="&#x53C2;&#x6570;_9"><a name="&#x53C2;&#x6570;_9" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;_9"><i class="fa fa-link" aria-hidden="true"></i></a>10.2. &#x53C2;&#x6570;</h2>
+<ul>
+<li>poaId&#xFF1A;poa id</li>
+</ul>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;_9"><a name="&#x8FD4;&#x56DE;&#x503C;_9" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;_9"><i class="fa fa-link" aria-hidden="true"></i></a>10.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;402880eb741e5fae01741e611f4d0001&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;grantor xu&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;upload&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;uploadPoaFileType&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;grantor&quot;</span><span class="token operator">:</span> <span class="token string">&quot;f96470ce-5ba9-4054-9926-95e8e368c7e5&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;prepared&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;poaType&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;poaParam&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;createdIn&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;activatedIn&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timeFrom&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timeTo&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;affidavitForActivation&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;capacityAssessment&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;consentAndDirection&quot;</span><span class="token operator">:</span> <span class="token string">&quot;402880eb741e5fae01741e6125260002&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;sdmMethod&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;fileId&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;sendNotification&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;poaStatus&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Draft&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;currentStep&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;createBy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;f616d819-5b10-4142-a9f9-66916985ffb0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;updateBy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;f616d819-5b10-4142-a9f9-66916985ffb0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;createdTime&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2020-08-24T02:51:53.281+0000&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;updatedTime&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2020-08-24T02:51:53.281+0000&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;authority&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;grantorName&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;preparedBy&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;fileIdStr&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;preparedInfo&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;grantorInfo&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;assessorInfo&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;sdmList&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;witnessList&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;consentList&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;402880eb741e5fae01741e6125260002&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;consent&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;suffix&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;true&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;label&quot;</span><span class="token operator">:</span> <span class="token string">&quot;General Consent&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;message&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Successful operation!&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="remark.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 4.2 POA操作权限">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.1 PoA API","level":"1.5.1","depth":2,"next":{"title":"4.2 POA操作权限","level":"1.5.2","depth":2,"path":"poa/remark.md","ref":"poa/remark.md","articles":[]},"previous":{"title":"4. PoA API","level":"1.5","depth":1,"ref":"","articles":[{"title":"4.1 PoA API","level":"1.5.1","depth":2,"path":"poa/poaController.md","ref":"poa/poaController.md","articles":[]},{"title":"4.2 POA操作权限","level":"1.5.2","depth":2,"path":"poa/remark.md","ref":"poa/remark.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","splitter","-lunr","-search","search-plus","prism","prism-themes","-highlight","anchors","anchor-navigation-ex","alerts"],"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"splitter":{},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"prism-themes":{},"alerts":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"poa/poaController.md","mtime":"2020-08-27T07:25:59.912Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-27T07:26:46.798Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
