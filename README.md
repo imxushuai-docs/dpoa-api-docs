@@ -140,3 +140,7 @@ DPOA API 文档说明
 ## 2020-08-24
 
 - [【查看详情】](poa/poaController.md#分步骤提交Poa)新增分步提交POA的API
+
+## 2020-08-27
+
+- [【查看详情】](compose/poaComposeDraft.md#分步提交compose)新增分步compose的API
